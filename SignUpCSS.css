@@ -1,0 +1,38 @@
+.body {
+	font-family: brandon grotesque;
+}
+
+.blue {
+	color: black;
+	border: 1px solid black;
+    outline: solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+	font-family: belinda;
+	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: #fdf5e6;}
+  to {background-color: #8b4513;}
+}
+
+h3 {
+	font-size: 17.5px;
+}
+.adjust1 {
+	text-align: center;
+	border: 5px solid black;
+	margin: auto;
+	width: 1000px;
+	padding: 30px;
+}
+
+.box {
+	text-align: center;
+	border: 5px solid black;
+	margin: auto;
+	width: 1000px;
+	padding: 30px;
+}

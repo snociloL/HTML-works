@@ -1,0 +1,97 @@
+.scroll{
+    overflow-y: scroll;
+    overflow-x: unset;
+    overflow: scroll;
+    height: 1000px;
+}
+.header{
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+}
+.right-header{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+.left-header{
+    width: 15%;
+}
+.logo{
+    position: relative;
+    width: 100%;
+    border-radius: 100%;
+}
+.middle-header{
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 1%;
+}
+.brand-name{
+    margin-top: 90%;
+    font-size: 380%;
+    color: white;
+    background-color: black;
+    text-shadow: 2px 2px rgb(255, 94, 0);
+}
+.help-button{
+    width: 105px;
+    height: 36px;
+    font-size: 125%;
+    color: black;
+    background-color: rgb(243, 167, 26);
+    border-radius: 2px;
+    transition: opacity 0.5s;
+}
+.help:hover{
+    opacity: 0.7;
+}
+.signup-button{
+    margin-left: 64%;
+    width: 105px;
+    font-size: 125%;
+    height: 36px;
+    color: black;
+    background-color: rgb(243, 167, 26);
+    border-radius: 2px;
+    transition: opacity 0.5s;
+}
+.signup-button:hover{
+    opacity: 0.7;
+}
+.form-background{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    height: 35%;
+    border-radius: 10px;
+}
+.login-text{
+    margin-left: 44%;
+}
+.password-submit{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 14%;
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(9, 211, 211);
+}
+.form-control{
+    position: absolute;
+    width: 550px;
+    height: 30px;
+    border-radius: 20px;
+}
+.username{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.password{
+    position: absolute;
+    margin-left: 9.6%;
+    margin-top: 10%; 
+}

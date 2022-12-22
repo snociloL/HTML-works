@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log in Page</title>
+        <style>
+            body{
+                background-image: url('background.webp');
+                background-repeat: no-repeat;
+                background-size: 120%;
+            }
+        </style>
+        <link rel="stylesheet" href="LoginCss2.css">
+    </head>
+    <body class="scroll">
+        <div class="header">
+            <div class="left-header">
+                <div>
+                    <img class="logo" src="icons.png" alt="Kopi Taim">
+                </div>
+            </div>
+            <div class="middle-header">
+                <b class="brand-name" >Kopi Taim</b>
+            </div>
+            <div class="right-header">
+                <button class="signup-button" onclick="document.location='SignUpOfficial.html'">
+                    Sign Up
+                </button>
+                <button class="help-button" onclick="document.location='help.html'">
+                    Help
+                </button>
+            </div>    
+        </div>
+        <div class="form-background" style="background-color: rgb(219, 163, 59);">
+            <h1 class="login-text">Log In</h1>
+            <div class="login-form">
+                <div class="username">
+                    <label>Username :</label>
+                    <div class="input text">
+                        <input name="username"
+                        class="form-control"
+                        id="usernameInput"
+                        placeholder=" Username"
+                        required="required"
+                        maxlength="20"
+                        type="text">
+                        <br>
+                    </div>
+                </div>
+                <div class="password">
+                    <label class="password-text">Password :</label>
+                    <div class="input password">
+                        <input name="password"
+                        class="form-control"
+                        id="passwordinput"
+                        placeholder=" Password"
+                        required="required"
+                        type="password">
+                    </div>
+                </div>
+                <div>
+                    <button class="password-submit" type="submit" onclick="document.location='menu.html'">Log In</button>
+                </div>
+            </div>
+        </div>
+        <div id="display" class="clock" onload="showTime()">
+        
+        </div>
+    </body>
+</html>
